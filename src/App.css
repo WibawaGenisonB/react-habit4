@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(14, 45, 71);
+  margin: 0;
+  /* background-color: #00182cff; */
+  color: white;
+}
+
+.nav {
+  display: flex;
+  background-color: #00182cff;
+  padding: 0;
+  margin: 0;
+}
+
+.nav--img {
+  width: 20vw;
+  padding: 10px;
+}
+
+.nav--title {
+  color: white;
+  margin: auto 0;
+}
+
+.info--img {
+  width: 100vw;
+  max-width: 80vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.paragraph--header {
+  text-align: center;
+}
+
+.paragraph--description {
+  margin: 0 10%;
+  font-weight: normal;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 0 20%;
+}
+
+.footer--icon {
+  height: 50px;
+  /* display: ; */
+  margin: 10px;
+}
