@@ -31,20 +31,38 @@ body {
 
 .paragraph--header {
   text-align: center;
+  margin-bottom: 2px;
 }
 
 .paragraph--description {
   margin: 0 10%;
   font-weight: normal;
 }
-
+/* 
 footer {
   margin: 0 auto;
   padding: 0 20%;
+} */
+
+/* .footer--icon {
+  height: 50px;
+  margin: 10px;
+} */
+
+.table {
+  display: table; /* Allow the centering to work */
+  margin: auto;
 }
 
-.footer--icon {
+/* .horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  margin: auto;
+} */
+.horizontal-list > li > img {
   height: 50px;
-  /* display: ; */
-  margin: 10px;
+}
+.horizontal-list > li {
+  display: inline;
 }

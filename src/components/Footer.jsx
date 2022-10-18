@@ -5,12 +5,24 @@ import github from "../assets/github.png"
 
 function Footer() {
   return (
-    <footer>
-      <img src={linkedin} className="footer--icon" />
-      <img src={youtube} className="footer--icon" />
-      <img src={whatsapp} className="footer--icon" />
-      <img src={github} className="footer--icon" />
-    </footer>
+    <div id="menu-outer">
+      <footer class="table">
+        <ul className="horizontal-list">
+          <li>
+            <img src={linkedin} className="footer--icon" />
+          </li>
+          <li>
+            <img src={youtube} className="footer--icon" />
+          </li>
+          <li>
+            <img src={whatsapp} className="footer--icon" />
+          </li>
+          <li>
+            <img src={github} className="footer--icon" />
+          </li>
+        </ul>
+      </footer>
+    </div>
   )
 }
 
